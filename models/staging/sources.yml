@@ -2,7 +2,7 @@ version: 2
 sources:
     - name: snowflake_data
       database: "{{('sales')}}"
-      schema: raw_schrma
+      schema: raw_schema
       tables:
         - name: RAW_LINEITEM
           columns:
